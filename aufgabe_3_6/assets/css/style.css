@@ -1,10 +1,10 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
- }
- 
- @font-face {
+}
+
+@font-face {
     font-family: karla;
     src: url(../fonts/Karla-VariableFont_wght.ttf);
 }
@@ -12,17 +12,58 @@
 html {
     font-family: karla;
 }
+
 span {
     font-weight: bold
 }
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 100px;
+    margin: 0 auto;
+    padding-left: 30px;
+    background-color: white;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 20px;
+    color: black;
+}
+
+header a {
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    margin-right: 60px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
 
 
 .pic-name {
     color: #848484;
 }
 
-.pic-description{
+.pic-description {
     font-weight: bold;
 }
-
-
